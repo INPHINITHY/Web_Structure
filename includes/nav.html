@@ -1,0 +1,18 @@
+<nav id="nav">
+    <a href="#nav" title="Show navigation"><img src="images/hamburger.png" valign="middle" alt="menu icon" /> Menu</a>
+    <a href="#" title="Hide navigation"><img src="images/hamburger.png" valign="middle" alt="menu icon" /> Menu</a>
+    <ul>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="#">Top level page</a>
+            <ul>
+                <li><a href="#">Dropdown page</a></li>
+            </ul>
+        </li>
+    </ul>
+    <script>
+        $( function()
+        {
+            $( '#nav li:has(ul)' ).doubleTapToGo();
+        });
+    </script>
+</nav>
