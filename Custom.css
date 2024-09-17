@@ -2,13 +2,12 @@
 /* CSS Document */
 
 /*
-Framework by Andy Shearouse Edited by Austin Dwomoh
+Framework by Andy Shearouse
 */
 html, body{
 	margin:0px !important;
 	padding:0px !important;
 }
-
 img{
 	max-width:100% !important;	
 }
@@ -43,9 +42,7 @@ These values do also need to be changed further down, in the 600px, 400px, and 3
 	width: 100%;
 	z-index:10;
 	position:relative;
-	float:left;
 	font-size:16px;
-	margin-bottom:15px;
 	background-color: darkgrey;
 }
 
@@ -89,7 +86,6 @@ These values do also need to be changed further down, in the 600px, 400px, and 3
 #nav > ul:not( :hover ) > li.active > a{
 	
 }
-
 	/* second level */
 
 #nav li ul{
@@ -127,6 +123,12 @@ These values do also need to be changed further down, in the 600px, 400px, and 3
 	display:inline-block;
 	padding-bottom:20px;
 }
+
+.content img{
+	width: 100%;
+
+}
+
 
 .grid-two-thirds-one-third{
 	display:-ms-grid;
@@ -181,7 +183,7 @@ These values do also need to be changed further down, in the 600px, 400px, and 3
 .footer{
 	background-color: rgb(134, 133, 131);
 	width: 100%;
-	position:relative;
+	position:absolute;
 	float:left;
 }
 
@@ -210,6 +212,10 @@ These values do also need to be changed further down, in the 600px, 400px, and 3
 }
 
 @media only screen and (max-width:1200px){
+	.slideshow-img{
+		width: 100%;
+		height: 50em;
+	  }
 
 	
 }
@@ -237,13 +243,14 @@ These values do also need to be changed further down, in the 600px, 400px, and 3
 	
 	#nav:not( :target ) > a:first-of-type,
 	#nav:target > a:last-of-type{
-		display: block;
+		display: flex;
 		width:100%;
 		text-align:center;
 		color:#000;
 		font-size:20px;
 		padding:5px 0px;
 		text-decoration:none;
+		justify-content: space-between;
 	}
 	
 	#nav a{
@@ -273,6 +280,7 @@ These values do also need to be changed further down, in the 600px, 400px, and 3
 	}
 
     /* second level */
+	
  
     #nav li ul{
         position: static;
@@ -286,6 +294,7 @@ These values do also need to be changed further down, in the 600px, 400px, and 3
 		margin:0.25em 0;
 	}
 	/*End Navigation*/
+	
 	
 	.grid-two-thirds-one-third{
 		-ms-grid-columns:1fr;
@@ -337,6 +346,10 @@ These values do also need to be changed further down, in the 600px, 400px, and 3
 		padding:0px 0px 0px 0px;
 		display:block;
 	}
+	.slideshow-img{
+		width: 100%;
+		height: 20em;
+	  }
 	
 }
 
@@ -350,6 +363,8 @@ These values do also need to be changed further down, in the 600px, 400px, and 3
 
 /*personal additions*/
 
+ 
+  
 .imglinks{
 	margin:0px 10px;
 	text-align: center;
@@ -362,7 +377,16 @@ These values do also need to be changed further down, in the 600px, 400px, and 3
 .imglinks a img{
 	border-radius: 10px;
 	width: 100%;
+	height: 20em;
+	object-fit: cover;
+	filter: blur(2px);
 }
+
+.imglinks a img:hover{
+	transform: scale(1.05);
+	box-shadow: 0 0px 8px 4px rgba(0,0,0,0.2);
+  
+	}
 
 .imglinks a p{
 	margin: 0;
@@ -394,3 +418,84 @@ These values do also need to be changed further down, in the 600px, 400px, and 3
     position: relative;
 	
 }
+
+/*about us*/
+.board{
+	display: flow-root;/*for place images at the start of line for the deisre effect of one side*/
+  }
+  
+  .board img{
+	width: 200px;
+	float: left;
+	margin-right: 20px;
+	max-height: 600px;
+	max-width: 400px;
+	margin-top: -15px;
+  }
+  .board li{
+	list-style: none;
+  }
+  
+  .board h3{
+	border-bottom: 3px dashed #d3d4d6;
+  
+  }
+  /*footer*/
+  footer {
+	background: #222;
+	color: white;
+	display: flex; 
+	justify-content: center;
+	padding: 0 20px;
+  }
+  
+  .socials{
+	list-style-type: none;
+	padding: 0;
+  
+  }
+  .socials li{
+	display: inline-block;
+	margin-left: 10px;
+  }
+  
+  .socials img{
+	width: 30px;
+  }
+  
+  .socials img:hover{
+	opacity: 0.5;
+  }
+
+  .blurred-background {
+	backdrop-filter: blur(2px);
+	background-color: rgba(255, 255, 255, 0.3); /* Optional background color with transparency */
+	padding: 20px;
+	border-radius: 10px;
+  }
+ 
+
+  /*Theme*/
+  /*.light-theme {
+	background-color: var(--light-background);
+	color: var(--light-text);
+  }
+  {this is for when you make the themes i want to understand how it works before actually using it}
+  .dark-theme {
+	background-color: var(--dark-background);
+	color: var(--dark-text);
+  }
+  assoiciated html incase you forget
+  <body class="light-theme">
+	  <!-- Your content here -->
+  </body>
+  and the java mainly because of this guy why am reluctant
+   // Switch to dark theme
+  document.body.className = "dark-theme";
+  
+  // Switch to light theme
+  document.body.className = "light-theme";
+  
+  */
+  
+  
