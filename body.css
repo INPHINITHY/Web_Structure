@@ -1,12 +1,12 @@
 html{
     height: 100%;
 	margin: 0;
-}
+}/* for all pages shouldnt be chnaged */
 
 *{
     box-sizing: border-box; /* Applies to all elements */
 }
-
+/* dark background */
 .body-dark{
     background-color: #36373A;
     margin: 0;
@@ -51,8 +51,10 @@ html{
     margin-bottom: 10px;
     color: #333;
 }
+/* end */
 
 
+/* white bg */
 .body-light{
     background-color: white;
     margin: 0;
@@ -99,8 +101,7 @@ html{
     color: #333;
 }
 
-
-
+/* end */
 
 
 
@@ -110,8 +111,9 @@ img{
 
 
 
-
-.resbody {
+/* check out the https://austindwomoh.xyz/pages/resume.php for the template or https://megagh.xyz/pages/aboutUs.php in both cases the h colors were chnaged to fit the design */
+/* chnage them if necesseray using inline style and write the chnage in the logs */
+.bodyx {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
@@ -120,11 +122,11 @@ img{
     color: #333;
 }
 
-.resbody h2, h3, h4 {
+.bodyx h2, h3, h4 {
     color: black;
 }
 
-.resbody h2 {
+.bodyx  h2 {
     font-size: 2.5em;
     margin-bottom: 10px;
     padding-bottom: 10px;
@@ -132,42 +134,37 @@ img{
 }
 
 
-.resbody h3 {
+.bodyx  h3 {
     font-size: 1.75em;
     margin-top: 30px;
 }
 
 
-.resbody h4 {
+.bodyx  h4 {
     font-size: 1.3em;
     margin-bottom: 10px;
     color: #333;
 }
 
 
-.resbody ul {
+.bodyx  ul {
     list-style-type: none;
     padding-left: 0;
 }
 
 
-.resbody ul li {
+.bodyx  ul li {
     margin-bottom: 8px;
 }
 
 
-.resbody a {
+.bodyx  a {
     color: #0056b3;
     text-decoration: none;
 }
+/* end */
 
-
-
-
-    
-
-
-    
+/* as an overlay of sorts used for backgound or caption display */ 
 .blurred-background {
 	backdrop-filter: blur(2px);
 	background-color: rgba(255, 255, 255, 0.3); /* Optional background color with transparency */
