@@ -1,4 +1,4 @@
-<div class="container-lm">
+<!-- <div class="container-lm">
   <div class="grid-two-columns">
         <div>
             <p>Copyright &copy; 2024 || Developed by Inphinithy</p> 
@@ -15,4 +15,6 @@
             </ul>
         </div>
   </div>
-</div>
+</div> -->
+
+<!-- Just an example -->

@@ -30,7 +30,7 @@ project-root/
 │   └── database.php        # Database connection file
 │
 ├── pages/
-│   ├── home.php            # Homepage
+│   ├── home.php            # Homepage can be the same as the index file or dont use the homepage
 │   ├── about.php           # About us page
 │   └── contact.php         # Contact form page
 │
