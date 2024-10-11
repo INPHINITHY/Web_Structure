@@ -32,6 +32,19 @@
     transform: scale(1.05);
 }
 
+.btn-sq{
+    padding: 05px 30px 05px 30px;
+    border: 3px solid#0056b3;
+    background-color: #0056b3;
+    color:  whitesmoke;
+    font-size: 20px;
+}
+
+.btn-sq:hover{
+    background-color: #70b1ff;
+    transform: scale(1.05);
+}
+
 
 
 .btn-hol{
