@@ -45,9 +45,9 @@ project-root/
 ## 🚀 **How to Get Started**
 
 1. **Organize Your Files**:
-   - Place `index.php` at the root of your project.
+   - Keep `index.php` at the root of your project. It will be the landing page.
    - Store reusable components like headers and footers inside the `includes/` folder.
-   - Pages that users will interact with, such as `home.php`, should reside in the `pages/` directory.
+   - Pages that users will interact with, such as `about.php`, should reside in the `pages/` directory.
    - Use the `templates/` folder for layouts and forms that can be reused across different parts of the site.
 
 2. **Avoid Common Pitfalls**:
@@ -55,17 +55,9 @@ project-root/
    - Refer to `header.php` and `footer.php` across multiple pages to streamline your site management.
    - Use `database.php` in the `includes/` folder for database connections, keeping your logic separate from presentation.
 
-## 🛠️ **Customization Tips**
-
-- **CSS**: Keep all your styling files in `assets/css/` for better organization. You can break them down further if necessary (e.g., into `buttons.css`, `forms.css`, etc.).
-- **JavaScript**: Store your scripts in `assets/js/` and load them in the header or footer depending on your optimization needs.
-- **Templates**: Use `templates/` to maintain DRY principles (Don’t Repeat Yourself) by creating reusable page layouts.
 
 ## 🔍 **Reference Example Pages**
 
 - **index.php**: This is the core of your site and will reference the reusable files (header, footer, etc.).
 - **example.php**: Check the structure of this page to see how it connects with the `includes/` folder components.
 
----
-
-With this structure, you’ll have a solid foundation for developing, scaling, and maintaining your website. Happy coding! 💻✨
