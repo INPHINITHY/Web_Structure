@@ -19,10 +19,14 @@ project-root/
 │   ├── css/
 │   │   └── style.css       # Main stylesheet
 │   │   └── other.css       # Additional CSS files
+│   ├── docs/
+│   │   └── read.pdf       #any important doc
+│   ├── favicon_io/
+│   │   └── favicons        #favicon styles
 │   ├── images/
 │   │   └── logo.png        # Website logo and other images
 │   └── js/
-│       └── script.js       # Custom JavaScript
+│       └── script.js       # Custom JavaScript     
 │
 ├── includes/
 │   ├── header.php          # Reusable site header
