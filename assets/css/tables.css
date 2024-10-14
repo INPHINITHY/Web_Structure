@@ -1,0 +1,120 @@
+.tour-table{
+    max-width:1920px;
+	width:50%;
+	margin: 20px auto;
+	position:relative;
+	padding-left: 100px;
+	padding-right: 100px;
+
+
+}
+
+.team-cell {
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+.team-cell img {
+    width: 7%;
+    border-radius: 50%;
+    margin-right: 10px; /* Space between image and text */
+}
+
+.td-rank{
+    padding: 5px 8px;
+}
+.td-points{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-left: 3px solid white ;
+}
+.fst{
+    border-left: 3px solid green;
+}
+.snd{
+    border-left: 3px solid yellow;
+}
+
+.trd{
+    border-left: 3px solid blue;
+}
+
+.team-name {
+    font-size: 18px;
+}
+.short{
+    display:none
+}
+th{
+    border: none;
+    padding: 5px 8px;
+    text-align: left;
+}
+tr{
+    margin-bottom: 20px;
+}
+td { 
+    text-align: center;
+    padding: 1px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+@media only screen and (max-width:720px){
+    .team-cell {
+        width: auto;
+    }
+    .team-cell img {
+        width: 15%;
+        border-radius: 50%;
+        margin-right: 10px; /* Space between image and text */
+    }
+    .tour-table{
+        width:100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .team-name {
+        display: none;
+    }
+    .short{
+        display:block;
+    }
+    
+}
+
+/*  <div class="tour-table">
+    <table style="border-collapse: separate;">
+        <h2 class="center">Leaderboard</h2>
+        <thead>
+            <tr style=" border:none">
+                <th>Rank</th>
+                <th>Team</th>
+                <th>P</th>
+                <th>MP</th>
+                <th>W</th>
+                <th>D</th>
+                <th>L</th>
+                <th>GD</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="td-rank">1</td>
+                <td class='team-cell'>
+                    <img src="/assets/images/clan-logos/lpg.jpg" alt="">
+                    <span class='team-name'>Les Panthers</span>
+                    <span class="team-name short">LPG</span>
+                </td>
+                <td class="td-points fst">0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+        <tbody>
+    </table>
+    <div>
+            
+*/
