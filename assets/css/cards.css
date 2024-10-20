@@ -219,4 +219,62 @@
     z-index: 10;
 }
 
+.linear-card{
+	background-color: #ffffff;
+    margin: 0 20px 20px 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.linear-card img{
+	float:left;
+	max-width: 100%;;
+	height: auto;
+	border-radius: 50%;
+}
+
+.linear-card h3{
+    margin: 0;
+	padding: 0;
+    padding-left: 10px;
+}
+.linear-card ul{display:flex; padding-left: 10px;}
+.linear-card li{margin-right:30px}
+
+
+@media only screen and (max-width:720px){
+	.linear-card{
+		background-color: #ffffff;
+		margin: 0 ;
+		margin-bottom: 10px;
+		padding: 20px;
+		padding-bottom: 0;
+		border-radius: 20px;
+		box-shadow: 0  2px 0px rgba(0, 0, 0, 0.1);
+	}
+	
+	.linear-card img{
+		float:left;
+		width: 15%;;
+		border-radius: 50%;
+	}
+	.linear-card h3{
+		padding-left: 80px;
+	}
+	.linear-card ul{padding-left: 20px;}
+
+	.linear-card:hover{
+		transform: scale(1.03);
+	}
+}
+/* <div class="linear-card">
+			<img src="/assets/images/" alt="">
+			    <h3>Elite Pro Gamers</h3>
+				<ul>
+					<li><a href="" title="instagram"><i class="bi bi-instagram"></i></a></li>
+					<li><a href="" title="whatsapp"><i class="bi bi-whatsapp"></i></a></li>
+				</ul>
+			</div>			
+*/
 
