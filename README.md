@@ -1,3 +1,5 @@
+DISCONTINUED
+
 # 🌐 **Website Project Structure**
 
 This repository outlines a clean and efficient structure for organizing your web project. By following this guide, you’ll avoid unexpected errors and maintain a scalable and manageable codebase.
